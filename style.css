@@ -1,0 +1,280 @@
+body {
+    background-color: #010812;
+    color: black;
+    background: url("afbeeldingen/Music-Wallpaper-07.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.post {
+    background-color: whitesmoke;
+    font-size: 14px;
+    width: 800px;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    6px 6px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         6px 6px 5px 0px rgba(50, 50, 50, 0.75);
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+#noPostsText {
+    color: white;
+    width: 800px;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.imagePost{
+    display: block;
+    width: 200px;
+    margin-top: 10px;
+    /*background-color: #C5CAE9;*/
+    float: left;
+}
+
+.post div {
+
+display: inline-block;
+}
+
+.post img, #head > img {
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text{
+    display: inline-block;
+    margin-left: 10px;
+    width: 570px;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.twitter-share-button {
+    display: block;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+#postHandler {
+    background-color: #BBDEFB;
+    width: 800px;
+    max-width: 100%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    6px 6px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         6px 6px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.socialMediaIcon{
+    width: 24px;
+}
+
+.posthandlerMenu {
+    color: white;
+    background-color:#2196F3 ;
+    border: 0;
+    min-width: 120px;
+    width: 20%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px;
+}
+
+.posthandlerMenu:hover {
+    -moz-box-shadow: 0 0 30px #FFFFFF;
+    -webkit-box-shadow: 0 0 30px #FFFFFF;
+    box-shadow: 0px 0px 30px #FFFFFF;
+}
+
+.posthandlerMenu:active{
+    background-color: #DC2B57;
+}
+
+#textUser{
+    width: 100%;
+    border-style: hidden;
+    resize: none;
+}
+
+#submit{
+    color: white;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    background-color: #2196F3 ;
+    padding: 10px;
+    border: 0;
+    border-radius: 20px;
+}
+
+#submit:hover {
+    -moz-box-shadow: 0 0 30px #FFFFFF;
+    -webkit-box-shadow: 0 0 30px #FFFFFF;
+    box-shadow: 0px 0px 30px #FFFFFF;
+}
+
+#submit:active{
+    background-color: #DC2B57;
+}
+
+#song{
+    width: 100%;
+    border: 0;
+    margin-top: 5px;
+}
+
+#logo {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: white;
+    width:100%;
+    position: fixed;
+    padding: 5px;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    -o-user-select: none;
+    user-select: none; 
+}
+
+#myPage {
+    margin-left: 10px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.clickImageSearch {
+    padding: 2px;
+}
+
+.clickImageSearch:hover {
+    color: #DC2B57;
+    cursor: pointer;
+}
+
+.playPreview{
+    background-image: url("afbeeldingen/play-icon.svg");
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+    float: right;
+    display: inline;
+}
+
+#dropdownUl {
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+#profilePicture {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 5px;
+}
+
+#logout {
+    float: right;
+    line-height: 50px;
+    vertical-align: middle;
+    padding-left: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+#logout:hover {
+    text-decoration: none;
+    color: #DC2B57;
+}
+
+#logout:active {
+    background-color: white;
+    color: #2196F3;
+    background-color: #DC2B57;
+}
+
+nav > div > a {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+nav > div > a:hover {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+#profile {
+    height: 50px;
+    float: right;
+    display: inline-block;
+}
+
+#loadingPostsImg {
+    width: 150px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.spotifyEmbedLoading {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    pointer-events: none;
+    overflow-y: auto;
+}
+
+@media screen and (max-width: 960px) {
+
+    #profile {
+        display: inline-block;
+        float: none;
+        width: 100%;
+    }
+
+    #logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #postHandler {
+        max-width: 95%;  
+        margin-top: 130px;  
+    }
+
+    .post {
+        max-width: 95%;    
+    }
+}
