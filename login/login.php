@@ -2,9 +2,9 @@
 	
 	session_start();
 
-	$client_id = "2933cd5a1b894b21af028e160adc06f8";
-	$client_secret = "4b6ca2b958264f6087b7bacbc1ab5b05";
-	$redirect_uri = "http:%2F%2Flocalhost%2FOP3%2Fproject%2Fremindify%2FpostPage.php";
+	$client_id = "";
+	$client_secret = "";
+	$redirect_uri = "http:%2F%2Fstud.cmi.hro.nl%2F0894225%2FOP3%2Fproject%2Fremindify%2FpostPage.php";
 	//$redirect_uri = "http:%2F%2Flocalhost%3A1337%2Fremindify%2FpostPage.php";
 
 	//login function
